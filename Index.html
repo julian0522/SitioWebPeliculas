@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--
+    El siguiente metadato indica al servidor que el contenido de la página es código HTML y su codificación de caracteres es UTF-8
+  -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Página web de reseñas de películas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="Index.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--------------------------------- METADATOS--------------------------------->
+      <!--
+        Este metadato proporciona una descripción general de la página web. Es importante que esta descripción sea clara y concisa,
+        y que proporcione una buena idea de lo que los usuarios encontrarán en la página web.
+      -->
+    <meta name="description" content="Esta es una página web donde encontrarás reseñas de películas. Aquí encontrarás las últimas reseñas, clasificaciones y noticias sobre películas.">
+      <!--
+        Este metadato proporciona una lista de palabras clave que describen el contenido de la página web.
+        Estas palabras clave ayudarán a que la página web sea encontrada en los motores de búsqueda
+      -->
+    <meta name="keywords" content="reseñas, películas, cine, terror, comedia, acción">
+      <!--
+        Este metadato es similar a la metaetiqueta description, pero proporciona una descripción más detallada del contenido de la página web
+      -->
+    <meta name="summary" content="Esta página web ofrece reseñas de películas de diferentes géneros.">
+      <!--
+        Este metadato indica a los motores de búsqueda que deben indexar y seguir la página web. Esto ayudará a que la página web aparezca en los resultados de búsqueda
+      -->
+    <meta name="robots" content="Index, follow">
+      <!--
+        Este metadato indica el autor de la página web
+      -->
+    <meta name="author" content="[Julian Guarnizo]">
+      <!--
+        Este metadato indica el año de copyright de la página web
+      -->
+    <meta name="copyright" content="Copyright &copy; ResePelis.com">
+      <!--
+        Este metadato indica que la página web está optimizada para los últimos navegadores
+      -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--
+        Este metadato indica el idioma de la página web
+      -->
+    <meta name="lang" content="es">
+      <!--
+        Este metadato indica el esquema de colores de la página web.
+      -->
+    <meta name="color-scheme" content="light">
+
+      <!--
+        Este metadato establece el título que se mostrará en las redes sociales cuando se comparta un enlace a la página web
+      -->
+    <meta property="og:title" content="ResePelis">
+      <!--
+         Este metadato establece la descripción que se mostrará en las redes sociales cuando se comparta un enlace a la página web
+      -->
+    <meta property="og:description" content="Esta es una página web donde encontrarás reseñas de películas. Aquí encontrarás las últimas reseñas de las mejores peliculas.">
+      <!--
+        Este metadato establece la imagen que se mostrará en las redes sociales cuando se comparta un enlace a la página web
+      -->
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fc%2FResumendePeliculas&psig=AOvVaw1FIvMlAbF5O-ZFfbRzsF1a&ust=1698204430067000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiFoNDejYIDFQAAAAAdAAAAABAF">
+      <!--
+        Este metadato establece la URL de la página web que se compartirá en las redes sociales
+      -->
+    <meta property="og:url" content="https://www.ResePelis.com/">
+      <!--
+        Este metadato establece el tipo de contenido que se comparte en las redes sociales. En este caso, estamos compartiendo un sitio web
+      -->
+    <meta property="og:type" content="website">
+      <!--
+        Este metadato establece el idioma del contenido que se comparte en las redes sociales. En este caso, estamos compartiendo contenido en español
+      -->
+    <meta property="og:locale" content="es_ES">
+
+
+      <!--
+        Este metadato establece el tipo de tarjeta que se mostrará en Twitter cuando se comparta un enlace a la página web
+      -->
+    <meta property="twitter:card" content="summary_large_image">
+      <!-- 
+        Este metadato establece el título que se mostrará en Twitter cuando se comparta un enlace a la página web
+      -->
+    <meta property="twitter:title" content="ResePelis">
+      <!--
+        Este metadato establece la descripción que se mostrará en Twitter cuando se comparta un enlace a la página web
+      -->
+    <meta property="twitter:description" content="Esta es una página web donde encontrarás reseñas de películas. Aquí encontrarás las últimas reseñas de las mejores peliculas.">
+      <!-- 
+        Este metadato establece la imagen destacada que se mostrará en Twitter cuando se comparta un enlace a la página web
+      -->
+    <meta property="twitter:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fc%2FResumendePeliculas&psig=AOvVaw1FIvMlAbF5O-ZFfbRzsF1a&ust=1698204430067000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiFoNDejYIDFQAAAAAdAAAAABAF">
+
+      <!-- 
+        Este metadato indica a los navegadores que deben escalar la página web para que se ajuste al ancho de la pantalla del dispositivo
+      -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- 
+        ste metadato indica a los navegadores que pueden almacenar en caché la página web durante un máximo de 3600 segundos (1 hora).
+        Esto puede ayudar a mejorar el rendimiento de la página web, ya que los navegadores no tendrán que descargar la página web de nuevo cada vez que un usuario la visite
+      -->
+    <meta http-equiv="Cache-Control" content="public, max-age=3600">
+      <!-- 
+        Este metadato indica a los navegadores que no deben intentar adivinar el tipo de contenido de la página web.
+        Esto es importante para evitar que los navegadores muestren la página web de forma incorrecta
+      -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+      
+</head>
+<body>
+  <header>
+    <h1>Página web de reseñas de películas</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="Terror.html">Terror</a></li>
+      <li><a href="Comedia.html">Comedia</a></li>
+      <li><a href="Accion.html">Accion</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="inicio">
+      <p>Esta es una pagina web en donde encontraras reseñas de películas. Aquí encontrarás las últimas reseñas, clasificaciones y noticias sobre películas.</p><hr/>
+      <h2>Reseñas de Las Mejores Peliculas</h2>
+      <p>Las reseñas de películas comenzaron a aparecer en los periódicos y revistas a finales del siglo XIX. Los primeros críticos de cine eran a menudo periodistas que escribían sobre películas como un evento cultural más amplio.
+        Uno de los primeros críticos de cine fue Louis Delluc, un cineasta y crítico francés que escribió sobre películas desde 1910. Delluc fue un defensor del cine como forma de arte y sus escritos ayudaron a establecer el cine como una forma de expresión legítima.
+        <Br><br>
+        Otros críticos de cine pioneros incluyen a James Agee, un escritor estadounidense que escribió sobre películas para The New Yorker; André Bazin, un crítico francés que escribió sobre películas para Cahiers du cinéma; y Peter Bogdanovich, un director y crítico estadounidense que escribió sobre películas para Esquire.
+    </p>
+    <div class="contenedorImagen">
+        <img alt="Louis Delluc" src="Imagenes/LouisDelluc.jpeg">
+    </div>
+    
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; ResePelis.com</p>
+  </footer>
+</body>
+</html>
