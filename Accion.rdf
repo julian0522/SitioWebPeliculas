@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:og="http://ogp.me/ns#">
+
+  <!-- Tripleta RDF para la página web -->
+  <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/">
+    <dc:title>Reseñas Películas de Accion</dc:title>
+    <dcterms:description>Esta página web ofrece reseñas de películas de Accion.</dcterms:description>
+    <dcterms:subject>reseñas, películas, accion, disparos, pandillas, rescate</dcterms:subject>
+    <dcterms:abstract>Esta página web ofrece reseñas de películas de acción.</dcterms:abstract>
+    <dcterms:robots>Index, follow</dcterms:robots>
+    <dcterms:creator>Sebastian Aragon</dcterms:creator>
+    <dcterms:rights>Copyright &copy; ResePelis.com</dcterms:rights>
+    <dcterms:created>2023-10-10</dcterms:created>
+
+    <!-- Enlace a la página web -->
+    <dcterms:identifier>
+      <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/"/>
+    </dcterms:identifier>
+
+    <!-- Enlace a colaborador -->
+    <dcterms:contributor>
+      <rdf:Description rdf:about="https://www.instagram.com/julian_g_2205/">
+        <dc:contributor>Julian Eduardo Guarnizo Parra</dc:contributor>
+      </rdf:Description>
+    </dcterms:contributor>
+
+    <!-- Metadatos Open Graph -->
+    <og:title>Reseñas Películas de Accion</og:title>
+    <og:description>Esta página web ofrece reseñas de películas de Accion.</og:description>
+    <og:image>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2FResumendePeliculas&psig=AOvVaw1FIvMlAbF5O-ZFfbRzsF1a&ust=1698204430067000&source=images&cd=vfe&opi=89978449&ved=0CBoQjRxqFwoTCPiFoNDejYIDFQAAAAAdAAAAABAD</og:image>
+    <og:url>https://www.resepelis.com/reseñas-accion/</og:url>
+    <og:type>website</og:type>
+    <og:locale>es_ES</og:locale>
+
+  </rdf:Description>
+
+  <!-- Tripleta RDF para la primera película - Duro de Matar -->
+  <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/duro-de-matar">
+    <dc:title>Duro de Matar</dc:title>
+    <dcterms:description>
+      "Duro de Matar" (título original: "Die Hard") es una película de acción icónica dirigida por John McTiernan y estrenada en 1988...
+    </dcterms:description>
+    <dcterms:subject>acción, clásico, Bruce Willis, Nakatomi Plaza</dcterms:subject>
+    <dcterms:created>1988</dcterms:created>
+    <!-- Puedes agregar más metadatos según sea necesario -->
+
+    <!-- Enlace a la película -->
+    <dcterms:identifier>
+      <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/duro-de-matar"/>
+    </dcterms:identifier>
+
+  </rdf:Description>
+
+  <!-- Tripleta RDF para la segunda película - Misión: Imposible -->
+  <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/mision-imposible">
+    <dc:title>Misión: Imposible</dc:title>
+    <dcterms:description>
+      "Misión: Imposible" es una franquicia de películas de acción que se originó en 1996 con la película homónima dirigida por Brian De Palma y protagonizada por Tom Cruise...
+    </dcterms:description>
+    <dcterms:subject>acción, espionaje, Tom Cruise, IMF</dcterms:subject>
+    <dcterms:created>1996</dcterms:created>
+    <!-- Puedes agregar más metadatos según sea necesario -->
+
+    <!-- Enlace a la película -->
+    <dcterms:identifier>
+      <rdf:Description rdf:about="https://www.resepelis.com/reseñas-accion/mision-imposible"/>
+    </dcterms:identifier>
+
+  </rdf:Description>
+
+  <!-- Otros recursos y tripletas RDF según sea necesario -->
+
+</rdf:RDF>

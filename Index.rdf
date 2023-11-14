@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <rdf:Description rdf:about="http://www.resepelis.com/index">
+    <dc:title>Página web de reseñas de películas</dc:title>
+    <dcterms:description>Esta es una página web donde encontrarás reseñas de películas. Aquí encontrarás las últimas reseñas, clasificaciones y noticias sobre películas.</dcterms:description>
+    <dcterms:subject>reseñas, películas, cine, terror, comedia, acción</dcterms:subject>
+    <dcterms:abstract>Esta página web ofrece reseñas de películas de diferentes géneros.</dcterms:abstract>
+    <dcterms:robots>Index, follow</dcterms:robots>
+    <dcterms:creator>Julian Guarnizo</dcterms:creator>
+    <dcterms:rights>Copyright &copy; ResePelis.com</dcterms:rights>
+    <dcterms:created>2023-10-10</dcterms:created>
+
+    <!-- Enlace a la página web -->
+    <dcterms:identifier>
+      <rdf:Description rdf:about="http://www.resepelis.com/index"/>
+    </dcterms:identifier>
+
+    <!-- Enlace a colaborador -->
+    <dcterms:contributor>
+      <rdf:Description rdf:about="https://www.instagram.com/cf_castro/">
+        <dc:contributor>Cristian Fernando Castro</dc:contributor>
+      </rdf:Description>
+    </dcterms:contributor>
+
+  </rdf:Description>
+
+
+</rdf:RDF>
