@@ -86,6 +86,49 @@ body {
     padding-right: 3rem;
   }
 
+  #contenidoOculto {
+    display: none;
+  }
+
+
+  /* CSS PARA EL CARRUSEL DE IMAGENES DEL INDEX*/
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1vh;
+  }
+
+  .slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slide {
+    min-width: 100%;
+    flex: 1;
+  }
+
+  /* Estilos para los botones */
+  .control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
   
   
 

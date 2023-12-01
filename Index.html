@@ -113,7 +113,7 @@
 <body> 
   <!--Metadatos Dublin Core en forma de Microformatos DC-->
 
-  <dl class="dublincore">
+  <dl class="dublincore" id="contenidoOculto">
     <dt class="dcterms:title">title</dt>
     <dd class="dcterms:title">Página web de reseñas de películas</dd>
 
@@ -187,8 +187,58 @@
       <li><a href="Terror.html">Terror</a></li>
       <li><a href="Comedia.html">Comedia</a></li>
       <li><a href="Accion.html">Accion</a></li>
+      <li><a href="Actores.html">Actores</a></li>
+      <li><a href="Escritores.html">Escritores</a></li>
+      <li><a href="Directores.html">Directores</a></li>
     </ul>
   </nav>
+
+  <div class="carousel" >
+    <div class="carousel">
+      <div class="slide-wrapper">
+        <div class="slide">
+          <img src="Imagenes/Conjuro_2.webp" alt="Imagen 1">
+        </div>
+        <div class="slide">
+          <img src="Imagenes/Proyectox.jpg" alt="Imagen 2">
+        </div>
+        <div class="slide">
+          <img src="Imagenes/duroMatar.webp" alt="Imagen 3">
+        </div>
+        <div class="slide">
+          <img src="Imagenes/Proyectox.jpg" alt="Imagen 4">
+        </div>
+      </div>
+      <div class="control prev" onclick="prevSlide()">⬅️</div>
+      <div class="control next" onclick="nextSlide()">➡️</div>
+    </div>
+  
+    <script>
+      let currentIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+  
+      function showSlide(index) {
+        if (index < 0) {
+          currentIndex = slides.length -1;
+        } else if (index >= slides.length) {
+          currentIndex = 0;
+        }
+  
+        const slideWrapper = document.querySelector('.slide-wrapper');
+        slideWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }
+  
+      function prevSlide() {
+        console.log(currentIndex)
+        showSlide(currentIndex - 1);
+      }
+  
+      function nextSlide() {
+        console.log(currentIndex)
+        showSlide(currentIndex + 1);
+      }
+    </script>
+
   <main>
     <section class="inicio">
       <p>Esta es una pagina web en donde encontraras reseñas de películas. Aquí encontrarás las últimas reseñas, clasificaciones y noticias sobre películas.</p><hr/>

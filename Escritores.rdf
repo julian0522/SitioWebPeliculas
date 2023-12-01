@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:og="http://ogp.me/ns#">
+
+  <!-- Tripleta RDF para la página web -->
+  <rdf:Description rdf:about="https://www.resePelis.com/actores/">
+    <dc:title>Escritores</dc:title>
+    <dcterms:description>Esta pagina ofrece informacion importante de los escritores de peliculas</dcterms:description>
+    <dcterms:subject>escritores, libreto, cine, peliculas</dcterms:subject>
+    <dcterms:abstract>Esta pagina ofrece informacion importante de los escritores de peliculas</dcterms:abstract>
+    <dcterms:robots>Index, follow</dcterms:robots>
+    <dcterms:creator>Sebastian Aragon Mondol</dcterms:creator>
+    <dcterms:rights>Copyright &copy; ResePelis.com</dcterms:rights>
+    <dcterms:created>2023-15-11</dcterms:created>
+
+    <!-- Enlace a la página web -->
+    <dcterms:identifier>
+      <rdf:Description rdf:about="https://www.resePelis.com/escritores/"/>
+    </dcterms:identifier>
+
+    <!-- Enlace a colaborador -->
+    <dcterms:contributor>
+      <rdf:Description rdf:about="https://www.instagram.com/sebas_a_334/">
+        <dc:contributor>Julian Guarnizo</dc:contributor>
+      </rdf:Description>
+    </dcterms:contributor>
+
+    <!-- Metadatos Open Graph -->
+    <og:title>Actores</og:title>
+    <og:description>Esta pagina ofrece informacion importante de los escritores de peliculas</og:description>
+    <og:image>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2FResumendePeliculas&psig=AOvVaw1FIvMlAbF5O-ZFfbRzsF1a&ust=1698204430067000&source=images&cd=vfe&opi=89978449&ved=0CBoQjRxqFwoTCPiFoNDejYIDFQAAAAAdAAAAABAD</og:image>
+    <og:url>https://www.resePelis.com/escritores/</og:url>
+    <og:type>website</og:type>
+    <og:locale>es_ES</og:locale>
+
+  </rdf:Description>
+
+
+</rdf:RDF>

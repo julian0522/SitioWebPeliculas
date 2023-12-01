@@ -12,7 +12,7 @@
     </url>
 
     <url> 
-        <loc>http://www.resepelis.com/terror/</loc>
+        <loc>http://www.resepelis.com/reseñas-terror/</loc>
 
         <lastmod>2023-10-24</lastmod>
 
@@ -22,7 +22,7 @@
     </url>
 
     <url> 
-        <loc>http://www.resepelis.com/comedia</loc>
+        <loc>http://www.resepelis.com/reseñas-comedia</loc>
 
         <lastmod>2023-10-24</lastmod>
 
@@ -32,13 +32,43 @@
     </url>
 
     <url> 
-        <loc>http://www.resepelis.com/accion</loc>
+        <loc>http://www.resepelis.com/reseñas-accion</loc>
 
-        <lastmod>2023-10-24</lastmod>
+        <lastmod>2023-11-10</lastmod>
 
         <changefreq>monthly</changefreq>
 
         <priority>0.7</priority>
+    </url>
+
+    <url> 
+        <loc>http://www.resepelis.com/actores/</loc>
+
+        <lastmod>2023-11-15</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.5</priority>
+    </url>
+
+    <url> 
+        <loc>http://www.resepelis.com/reseñas-accion</loc>
+
+        <lastmod>2023-11-16</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.5</priority>
+    </url>
+
+    <url> 
+        <loc>http://www.resepelis.com/reseñas-accion</loc>
+
+        <lastmod>2023-11-17</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.5</priority>
     </url>
 
 </urlset> 
